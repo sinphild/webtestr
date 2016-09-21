@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="CSSLoss.com">
+        <link rel="icon" href="img/favicon.ico">
+        <title>[ DPRTMNT ]</title>
+
+        <!-- BOOTSTRAP CORE CSS -->
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+
+        <!-- PLUGIN STYLES FOR THIS TEMPLATE -->
+        <link rel="stylesheet" href="css/vendor/magnific-popup.css">
+        <link rel="stylesheet" href="css/vendor/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="css/vendor/jquery.mb.YTPlayer.min.css">
+        <link rel="stylesheet" href="css/vendor/vegas.min.css">
+
+        <!-- MAIN STYLE FOR THIS TEMPLATE -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body class="layout-1">
+
+        <!-- LOADER -->
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+        </div>
+
+        <!-- AUDIO TOGGLE -->
+        <button class="audio-toggle wave"><i></i><i></i><i></i></button>
+
+        <!-- NAV SOCIAL -->
+        <div class="nav-social">
+            <ul>
+                <li><a href="https://www.facebook.com/rhys.ferguson" target="_blank"><i class="icon icon-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/eyeofrhys/" target="_blank"><i class="icon icon-instagram"></i></a></li>
+                <li><a href="#" target="_blank"><i class="icon icon-twitter"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- BACKGROUND VIDEO -->
+        <div class="main-bg bg-image bg-video" data-image="img/1.jpg">
+
+            <!-- PUT YOUR VIDEO LINK HERE -->
+            <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=gzjf5HS73T4',containment:'.bg-video',showControls:false, autoPlay:true, loop:true, vol:0, mute:true, startAt:1, opacity:1, addRaster:false, quality:'default', optimizeDisplay:true}">DPRTMNT</a>
+
+        </div>
+
+        <!-- INTRO SECTION -->
+        <div id="intro" class="section-intro">
+
+            <!-- NAV TOGGLE -->
+            <button class="nav-toggle wave flipped"><i></i><i></i><i></i></button>
+
+            <!-- RESUME CLOSE -->
+            <div class="resume-close"></div>
+
+        </div>
+        <!-- /END INTRO SECTION -->
+
+        <!-- RESUME SECTION -->
+        <div id="resume" class="section-resume">
+            <div class="container-fluid">
+                <!-- SERVICES -->
+                <div class="row asymetric">
+                    <div class="col-lg-9">
+                        <div>
+                            <div class="row">
+                                <div class="icon-box col-md-6">
+                                    <div class="box-content">
+                                        <h4>BRAND DEVELOPMENT</h4>
+                                    </div>
+                                </div>
+                                <div class="icon-box col-md-6">
+                                    <div class="box-content">
+                                        <h4>CREATIVE DESIGN & DIRECTION</h4>
+                                    </div>
+                                </div>
+                                <div class="icon-box col-md-6">
+                                    <div class="box-content">
+                                        <h4>DIGITAL MARKETING</h4>
+                                    </div>
+                                </div>
+                                <div class="icon-box col-md-6">
+                                    <div class="box-content">
+                                        <h4>PRESS ADVERTISEMENT</h4>
+                                    </div>
+                                </div>
+                                <div class="icon-box col-md-6">
+                                    <div class="box-content">
+                                        <h4>WEB DEVELOPMENT</h4>
+                                    </div>
+                                </div>
+                                <div class="icon-box col-md-6">
+                                    <div class="box-content">
+                                        <h4>VIDEO PRODUCTION</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END SERVICES -->
+
+  
+                <!-- CONTACT -->
+                <div class="row asymetric">
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-9">
+                        <div>
+                            <ul class="info-list list-unstyled row">
+                                <li class="col-sm-6 col-md-3"><strong>Location</strong><span>Australia</span></li>
+                                <li class="col-sm-6 col-md-3"><strong>Phone</strong><span>+61 421 492 861</span></li>
+                                <li class="col-sm-6 col-md-3"><strong>Email</strong><a href="http://www.cssloss.com"><span>info@dprtmnt.com.au</span></a></li>
+                                <li class="col-sm-6 col-md-3"><strong>Website</strong><span>www.dprtmnt.com.au</span></li>
+                            </ul>
+
+                            <!-- CONTACT FORM -->
+                            <form class="contact-form p-y-40">
+                                <p class="send-status success"><i class="icon icon-check"></i>Your message has been sent successfully.</p>
+                                <p class="send-status error"><i class="icon icon-close-circle"></i>E-mail must be valid and message must be longer than 1 character.</p>
+                                <input class="form-control" id="name" type="text" name="name" placeholder="name">
+                                <input class="form-control" id="email" type="email" name="email" placeholder="email">
+                                <input class="form-control" id="subject" type="text" name="subject" placeholder="subject">
+                                <textarea class="form-control" id="message" rows="6" placeholder="message"></textarea>
+                                <button class="btn text-uppercase m-t-40" type="submit" id="submit" name="submit"><span>send</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /END CONTACT -->
+
+            </div>
+        </div>
+        <!-- /END RESUME SECTION -->
+
+        <!-- AUDIO -->
+        <audio id="audio-player" loop>
+            <source src="audio/audio.mp3" type="audio/mpeg">
+        </audio>
+        <!-- /END AUDIO -->
+
+        <!-- jQuery -->
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+
+        <!-- BOOTSTRAP CORE JAVASCRIPT -->
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <!-- PLUGIN SCRIPTS FOR THIS TEMPLATE -->
+        <script src="js/vendor/plugins.js"></script>
+        <script src="js/vendor/audio.js"></script>
+        <script src="js/vendor/vegas.min.js"></script>
+        <script src="js/vendor/jquery.mb.YTPlayer.min.js"></script>
+        <script src="js/vendor/bg-video-youtube.js"></script>
+
+        <!-- MAIN SCRIPT FOR THIS TEMPLATE -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
